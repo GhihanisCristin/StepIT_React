@@ -10,6 +10,7 @@ class App extends Component {
     ]
   }
   render() {
+    {/*aici se pot declara alte variabile, inainte de return*/}
     return (<div className="scoreboard">
     <Header title="Le Titlu" numar ={this.state.players.length}/>
     <div className="player">
